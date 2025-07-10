@@ -1,0 +1,143 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+/* shared styles */
+.secondery-bg{
+    background-color: #ffefe3c0;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-1{
+    color: #181717;
+}
+.dark-3{
+    color: #757575;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 40px 0px 0px 15px;
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px; 
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+/* banner styles */
+.banner{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0px 40px 0px 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+}
+.banner-profile-picture{
+    width: 750px;
+    height: 650px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+/* About items style */
+.about-items{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 55px;
+}
+.item-title{
+    font-size: 20px;
+}
+.item-description{
+    text-wrap-mode: nowrap;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skills{
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+/* skills sections */
+.skills-container{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    gap: 40px;
+    margin: 50px 0px 0px 0px;
+    
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgb(248, 200, 106);
+    border-radius: 6px;
+}
