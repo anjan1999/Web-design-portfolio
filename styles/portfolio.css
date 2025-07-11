@@ -98,7 +98,6 @@ nav li a{
 /* main styles */
 main{
     max-width: 1140px;
-    height: 550px;
     margin: 0 auto;
 }
 
@@ -147,7 +146,7 @@ main{
 }
 .resume-container{
     display: flex;
-    gap: 45px;
+    gap: 65px;
 }
 .resume-column-title{
     color: #474747;
@@ -177,3 +176,31 @@ main{
   border-style: inset;
   border-width: 1px;
 } */
+.btn{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* foooter style */
+footer{
+    justify-content: center;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+footer input[type="text"]{
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background-color: beige;
+    margin-bottom: 25px;
+}
+footer input[type="email"]{
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background-color: beige;
+    display: block;
+    margin-bottom: 25px;
+}
+
